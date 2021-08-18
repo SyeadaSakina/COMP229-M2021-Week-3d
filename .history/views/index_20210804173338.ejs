@@ -9,52 +9,34 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/Content/app.css">
 </head>
 <body>
   <!-- Navigation Section-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">COMP229</a>
+    <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="/home"><i class="fas fa-home fa-lg "></i>Home</a>
+          <a class="nav-link" href="#"><i class="fas fa-home fa-large"></i>Home</a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link" href="/about"><i class="fas fa-info fa-lg "></i>About</a>
-        </li>
-
-         <li class="nav-item">
-          <a class="nav-link" href="/projects"><i class="fas fa-cog fa-lg "></i>Projects</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="/services"><i class="fas fa-map fa-lg "></i>Services</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="/cotact"><i class="fas fa-pone fa-lg "></i>Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
         
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
-
- <div class="container">
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
- </div>
- 
-<!----Bottom Nav -->
-<nav class="navbar fixed-bottom navbar-light bg-light">
-  <div class="container-fluid">
-    <h4>&copy; Copyright Syeda Zannatul Sakina</h4>
-  </div>
-</nav>
+  <h1><%= title %></h1>
+  <p>Welcome to <%= title %></p>
     
   <!---JavaScript-->
   <script src="/jquery/dist/jquery.min.js"></script>
